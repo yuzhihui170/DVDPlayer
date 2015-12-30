@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="transparent">#5000</color>
+ <color name="color_titlecolor">#00C0FF</color>
+ <color name="color_white">#FFFFFF</color> 
+ <color name="color_currenttrack">#FFFFFF</color> 
+ <color name="color_cureentstate">#48B441</color> 
+</resources>
+

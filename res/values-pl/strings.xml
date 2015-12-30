@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">płyta DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Ustawienia</string>
+    <string name="language_code_title">ustawienia języka</string>
+    <string name="language_code_summary">język użytkownika</string>
+    <string name="video_title">ustawienia wideo</string>
+    <string name="video_summary">Ustawienia współczynnika proporcji</string>
+    <string name="audio_title">ustawienia dźwięku</string>
+    <string name="audio_summary">Efekt dźwiękowy</string>
+    <string name="restore_title">Przywróć ustawienia fabryczne</string>
+    <string name="restore_summary">Powrót do ustawień fabrycznych</string>
+    <string name="version_title"> Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Spowoduje to zresetowanie wszystkich ustawień DVD do ustawień fabrycznych, czy na pewno?</string>
+    <string name="select_dvd_menu_language">Wybierz język menu DVD</string>
+    <string name="select_audio_language">Wybierz język dźwięku</string>
+    <string name="select_subtitle_language">Wybierz język napisów</string>
+    <string name="select_osd_menu_language">Wybierz język menu OSD</string>
+    <string name="select_tv_shape">Wybierz format obrazu</string>
+    <string name="select_view_mode">wybrać tryb wyświetlania</string>
+    <string name="enable_uc_3d_effect"> efekty 3D</string>
+    <string name="enable_uc_drc_ctrl">DRC kontroli</string>
+    <string name="disc_root">Płyty:</string>
+    <string name="source_title">konwersji zasobów</string>
+    <string name="source_message">Konwersja źródła wideo, czy wyjść DVD</string>
+    <string name="load_dvd">Ładowanie DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">track:</string>
+    <string name="data_disc_song_name">UnKnown piosenki</string>
+    <string name="data_disc_song_singer">Nieznany Artysta</string>
+    <string name="data_disc_song_special">Nieznany album</string>
+    <string name="data_disc_file_list">Lista plików</string>
+    <string name="data_disc_index_list">Lista folderów</string>
+    <string name="brake_warn">Jazdy, dla własnego bezpieczeństwa, zamknięte wideo!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">wideo</string>
+    <string name="music">muzyka</string>
+    <string name="picture">obraz</string>
+    <string name="out">Magazyn</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">jasność</string>
+    <string name="contrast">kontrast</string>
+    <string name="tone">ton</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Wyjdź z oprogramowania</string>
+    <string name="quit_dlg_msg">Niezależnie od tego, aby wyjść z oprogramowania DVD</string>
+    <string name="quit_dlg_ok">tak</string>
+    <string name="quit_dlg_cancel">nie</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">ostrzec</string>
+    <string name="quit_disc_warn_msg">No Disc w komputerze</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">czytać</string>
+    <string name="update_up">w górę</string>
+    <string name="update_down">w dół</string>
+    <string name="update_left">Lewa</string>
+    <string name="update_right">prawo</string>
+    <string name="update_confirm">potwierdzać</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">awansować</string>
+    <string name="dvd_sward">wycofać się</string>
+    <string name="track">utwory: </string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Indstillinger</string>
+    <string name="language_code_title">sprogindstillinger</string>
+    <string name="language_code_summary">bruger sprog</string>
+    <string name="video_title">Videoindstillinger</string>
+    <string name="video_summary">Skærmformat indstillinger</string>
+    <string name="audio_title">lydindstillinger</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Gendan fabriksindstillinger</string>
+    <string name="restore_summary">Nulstil til fabriksindstillinger</string>
+    <string name="version_title">Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Dette vil nulstille alle DVD-indstillinger til fabriksindstillingen, er du sikker?</string>
+    <string name="select_dvd_menu_language">Vælg DVD-menusprog</string>
+    <string name="select_audio_language">Vælg lydsprog</string>
+    <string name="select_subtitle_language">Vælg undertekstsprog</string>
+    <string name="select_osd_menu_language">Vælg OSD-menusprog</string>
+    <string name="select_tv_shape">Vælg TV facon</string>
+    <string name="select_view_mode">vælge skærmtilstand</string>
+    <string name="enable_uc_3d_effect"> 3D-effekter</string>
+    <string name="enable_uc_drc_ctrl">DRC kontrol</string>
+    <string name="disc_root">diske:</string>
+    <string name="source_title">Resource konvertering</string>
+    <string name="source_message">Konvertere video kilde, for at afslutte DVD</string>
+    
+    <string name="load_dvd">Loading DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">Rute:</string>
+    <string name="data_disc_song_name">ukendt Song</string>
+    <string name="data_disc_song_singer">ukendt Kunstner</string>
+    <string name="data_disc_song_special">ukendt album</string>
+    <string name="data_disc_file_list">File List</string>
+    <string name="data_disc_index_list">Mappeliste</string>
+    <string name="brake_warn">Kørsel, for din sikkerhed, lukket video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">Musik</string>
+    <string name="picture">billede</string>
+    <string name="out">Et lager</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">Lysstyrke</string>
+    <string name="contrast">Kontrast</string>
+    <string name="tone">tone</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Afslut Software</string>
+    <string name="quit_dlg_msg">Om at forlade DVD Software</string>
+    <string name="quit_dlg_ok">Ja</string>
+    <string name="quit_dlg_cancel">ingen</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">Advar</string>
+    <string name="quit_disc_warn_msg">No Disc i maskinen</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">Læs</string>
+    <string name="update_up">up</string>
+    <string name="update_down">down</string>
+    <string name="update_left">venstre</string>
+    <string name="update_right">højre</string>
+    <string name="update_confirm">Bekræft</string>
+    
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <string name="dvd_fward">Advance</string>
+    <string name="dvd_sward">Retreat</string>
+    <string name="track">tracks: </string>
+    
+</resources>

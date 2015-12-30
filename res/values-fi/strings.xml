@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">soittolista</string>
+    <string name="settings">Asetukset</string>
+    <string name="language_code_title">kieliasetukset</string>
+    <string name="language_code_summary">käyttäjän kieli</string>
+    <string name="video_title">videon asetukset</string>
+    <string name="video_summary">Kuvasuhdeasetus</string>
+    <string name="audio_title">ääniasetuksia</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Palauttaa tehdasasetukset</string>
+    <string name="restore_summary">Palauta tehdasasetukset</string>
+    <string name="version_title"> Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Tämä palauttaa kaikki DVD asetukset oletusarvo, oletko varma?</string>
+    <string name="select_dvd_menu_language">Valitse DVD-valikon kieli</string>
+    <string name="select_audio_language">Valitse puhekieli</string>
+    <string name="select_subtitle_language">Valitse tekstityskieli</string>
+    <string name="select_osd_menu_language">Valitse valikkokieliasetuksen</string>
+    <string name="select_tv_shape">Valitse TV-muoto</string>
+    <string name="select_view_mode">Valitse näyttötila</string>
+    <string name="enable_uc_3d_effect">3D-tehosteet</string>
+    <string name="enable_uc_drc_ctrl">DRC-ohjaus</string>
+    <string name="disc_root">levyjä:</string>
+    <string name="source_title">Resource muuntaminen</string>
+    <string name="source_message">Muuntaa videon lähde, onko poistua DVD</string>
+    
+    <string name="load_dvd">Ladataan DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">no Disc</string>
+    <string name="load_dvd_out_disc">levy Out</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">tuntematon Song</string>
+    <string name="data_disc_song_singer">tuntematon taiteilija</string>
+    <string name="data_disc_song_special">Unknown Album</string>
+    <string name="data_disc_file_list">File List</string>
+    <string name="data_disc_index_list">Folder List</string>
+    <string name="brake_warn">Ajo, oman turvallisuuden, suljettu video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">musiikki</string>
+    <string name="picture">kuva</string>
+    <string name="out">varasto</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">kirkkaus</string>
+    <string name="contrast">kontrasti</string>
+    <string name="tone">sävy</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Poistu Software</string>
+    <string name="quit_dlg_msg">Onko poistua DVD Software</string>
+    <string name="quit_dlg_ok">kyllä</string>
+    <string name="quit_dlg_cancel">ei</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">varoittaa</string>
+    <string name="quit_disc_warn_msg">Ei Disc kone</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">lukea</string>
+    <string name="update_up">ylös</string>
+    <string name="update_down">alas</string>
+    <string name="update_left">Vasen</string>
+    <string name="update_right">oikea</string>
+    <string name="update_confirm">vahvistaa</string>
+ 
+        
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+        <string name="dvd_fward">edistää</string>
+    <string name="dvd_sward">vetäytyä</string>
+    <string name="track">tracks: </string>
+</resources>

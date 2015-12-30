@@ -1,0 +1,298 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:buttonlist="http://schemas.android.com/apk/res/com.apical.dvdplayer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CDActivity" >
+
+    <ImageButton
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nextpagebtn" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/move"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/move"
+        android:layout_toLeftOf="@id/move" >
+
+        <com.apical.dvdplayer.dvdview.HScrollViewGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res/com.apical.dvd"
+            android:id="@+id/hsView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <ImageButton
+                android:id="@+id/cdplayeract_sward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnsward" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnpre" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_playpause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnplaypause" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnnext" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_fward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnfward" />
+           
+           <ImageButton
+                android:id="@+id/cdplayeract_circulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btncirculation" />
+           
+            <ImageButton
+                android:id="@+id/cdplayeract_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnstop" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnaudio" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_soundchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/btnsoundchange" />
+
+            <ImageButton
+                android:id="@+id/cdplayeract_outdisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical|center_horizontal"
+                android:background="@drawable/outdisc" />
+        </com.apical.dvdplayer.dvdview.HScrollViewGroup>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cdplayeract_iv0"
+        android:layout_width="235dip"
+        android:layout_height="235dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="56dip"
+        android:background="@drawable/cdplayer_music" />
+
+    <LinearLayout
+        android:id="@+id/cdplayeract_llayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cdplayeract_iv0"
+        android:layout_alignTop="@id/cdplayeract_iv0"
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@id/cdplayeract_iv0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/cdplayeract_tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textColor="@color/color_titlecolor"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:id="@+id/cdplayeract_llayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/cdplayeract_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/track"
+                android:textColor="@color/color_white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/cdplayeract_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/cdplayeract_tv1"
+                android:textColor="@color/color_currenttrack"
+                android:textSize="23sp" />
+            
+            <TextView
+                android:id="@+id/cdplayeract_tvinterval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/cdplayeract_tv2"
+                android:text="@string/xie"
+                android:textColor="@color/color_white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/cdplayeract_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/cdplayeract_tvinterval"
+                android:layout_alignBottom="@id/cdplayeract_tvinterval"
+                android:textColor="@color/color_white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/cdplay_tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="23sp" />
+
+        <RadioGroup
+            android:id="@+id/cdplay_radiobtncirculationmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="3px"
+            android:layout_y="54px"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/raidobtn_random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:background="@drawable/radiobtn_random"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/raidobtn_repetclose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:enabled="false"
+                android:background="@drawable/radiobtn_sequence"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/raidobtn_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:enabled="false"
+                android:background="@drawable/radiobtn_onecirculation"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/raidobtn_repetlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:enabled="false"
+                android:background="@drawable/radiobtn_allcirculation"
+                android:button="@null"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/CDseekBarProgress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="491px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cdplayeract_iv0"
+        android:layout_below="@id/cdplayeract_iv0"
+        android:layout_marginTop="32dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:progressDrawable="@drawable/seekbar_xml"
+        android:thumbOffset="0dip" />
+
+    <TextView
+        android:id="@+id/cdplayeract_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/CDseekBarProgress"
+        android:layout_below="@id/CDseekBarProgress"
+        android:textColor="@color/color_cureentstate"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cdplayeract_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/CDseekBarProgress"
+        android:layout_below="@id/CDseekBarProgress"
+        android:textColor="@color/color_white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/datalistmusic_tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/CDseekBarProgress"
+        android:layout_below="@id/cdplayeract_iv0"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/color_cureentstate"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/datalistmusic_tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/CDseekBarProgress"
+        android:layout_below="@id/cdplayeract_iv0"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/color_cureentstate"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/listViewMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/CDseekBarProgress"
+        android:background="@drawable/cdlistview_background"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/cdlistview_interval"
+        android:listSelector="@drawable/cdlistview_sel"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+</RelativeLayout>

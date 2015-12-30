@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Configuración</string>
+    <string name="language_code_title">configuración de idioma</string>
+    <string name="language_code_summary">idioma del usuario</string>
+    <string name="video_title">ajustes de vídeo</string>
+    <string name="video_summary">Ajustes de la relación de aspecto</string>
+    <string name="audio_title">ajustes de sonido</string>
+    <string name="audio_summary">Efectos de sonido</string>
+    <string name="restore_title">Restablecer los valores iniciales</string>
+    <string name="restore_summary">Restablecer los valores predeterminados de fábrica</string>
+    <string name="version_title"> Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Esto restablecerá todos los ajustes del DVD a la configuración predeterminada de fábrica, ¿estás seguro?</string>
+    <string name="select_dvd_menu_language">Seleccione el idioma del menú DVD</string>
+    <string name="select_audio_language">Seleccione el idioma de audio</string>
+    <string name="select_subtitle_language">Seleccione el idioma de subtítulos</string>
+    <string name="select_osd_menu_language">Seleccione el idioma del menú OSD</string>
+    <string name="select_tv_shape">Seleccionar formato de televisión</string>
+    <string name="select_view_mode">seleccionar el modo de visualización</string>
+    <string name="enable_uc_3d_effect">efectos 3D</string>
+    <string name="enable_uc_drc_ctrl">Control DRC</string>
+    <string name="disc_root">discos:</string>
+    <string name="source_title">conversión de recursos</string>
+    <string name="source_message">Convertir fuente de vídeo, ya sea para salir de DVD</string>
+    
+    <string name="load_dvd">Cargando DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disco Salida</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">canción UnKnown</string>
+    <string name="data_disc_song_singer">artista desconocido</string>
+    <string name="data_disc_song_special">Album Unknown</string>
+    <string name="data_disc_file_list">Lista de archivos</string>
+    <string name="data_disc_index_list">Lista de carpetas</string>
+    <string name="brake_warn">Prácticas, para su seguridad, cerró video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">vídeo</string>
+    <string name="music">música</string>
+    <string name="picture">imagen</string>
+    <string name="out">Un almacén</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">brillo</string>
+    <string name="contrast">contraste</string>
+    <string name="tone">tono</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Salir de Software</string>
+    <string name="quit_dlg_msg">Ya sea para salir el DVD de software</string>
+    <string name="quit_dlg_ok">sí</string>
+    <string name="quit_dlg_cancel">no</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">advertir</string>
+    <string name="quit_disc_warn_msg">No hay disco en la máquina</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">leer</string>
+    <string name="update_up">hasta</string>
+    <string name="update_down">abajo</string>
+    <string name="update_left">Izquierda</string>
+    <string name="update_right">derecho</string>
+    <string name="update_confirm">confirmar</string>
+
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <string name="dvd_fward">avanzar</string>
+    <string name="dvd_sward">retirarse</string>
+    <string name="track">Pistas: </string>
+</resources>

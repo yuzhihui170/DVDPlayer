@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ImageTextButton">
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="integer" />
+    </declare-styleable>
+
+    
+    <declare-styleable name="ButtonList">
+        <attr name="btnnum" format="integer" />
+        <attr name="ctrlwidth" format="integer" />
+        <attr name="btnnextchangepagenormal" format="reference" />
+        <attr name="btnnextchangepagesel" format="reference" />
+        <attr name="btnprechangepagenormal" format="reference" />
+        <attr name="btnprechangepagesel" format="reference" />
+        <attr name="btn0normal" format="reference" />
+        <attr name="btn0sel" format="reference" />
+        <attr name="btn0normalextra" format="reference" />
+        <attr name="btn0selextra" format="reference" />
+        <attr name="btn1normal" format="reference" />
+        <attr name="btn1sel" format="reference" />
+        <attr name="btn2normal" format="reference" />
+        <attr name="btn2sel" format="reference" />
+        <attr name="btn3normal" format="reference" />
+        <attr name="btn3sel" format="reference" />
+        <attr name="btn4normal" format="reference" />
+        <attr name="btn4sel" format="reference" />
+        <attr name="btn5normal" format="reference" />
+        <attr name="btn5sel" format="reference" />
+        <attr name="btn6normal" format="reference" />
+        <attr name="btn6sel" format="reference" />
+        <attr name="btn7normal" format="reference" />
+        <attr name="btn7sel" format="reference" />
+        <attr name="btn8normal" format="reference" />
+        <attr name="btn8sel" format="reference" />
+        <attr name="btn9normal" format="reference" />
+        <attr name="btn9sel" format="reference" />
+        <attr name="btn10normal" format="reference" />
+        <attr name="btn10sel" format="reference" />
+        <attr name="btn11normal" format="reference" />
+        <attr name="btn11sel" format="reference" />
+        <attr name="btn12normal" format="reference" />
+        <attr name="btn12sel" format="reference" />
+        <attr name="btn13normal" format="reference" />
+        <attr name="btn13sel" format="reference" />
+        <attr name="btn14normal" format="reference" />
+        <attr name="btn14sel" format="reference" />
+        <attr name="btn15normal" format="reference" />
+        <attr name="btn15sel" format="reference" />
+        <attr name="btnnumextrano" format="integer" />
+        <attr name="btnnormalextrawith0" format="integer" />
+        <attr name="btnnormalextra0" format="reference" />
+        <attr name="btnselextra0" format="reference" />
+    </declare-styleable>
+    
+</resources>

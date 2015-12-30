@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">재생 목록</string>
+    <string name="settings">설정</string>
+    <string name="language_code_title">언어 설정</string>
+    <string name="language_code_summary">사용자 언어</string>
+    <string name="video_title">비디오 설정</string>
+    <string name="video_summary">화면 비율 설정</string>
+    <string name="audio_title">사운드 설정</string>
+    <string name="audio_summary">사운드 효과</string>
+    <string name="restore_title">기본 설정을 복원</string>
+    <string name="restore_summary">공장 출하시 기본 설정으로 재설정</string>
+    <string name="version_title">프로토콜 버전</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">이 공장 출하시 기본 설정은 모든 DVD 설정을 재설정합니다, 당신은 확실?</string>
+    <string name="select_dvd_menu_language">DVD 메뉴 언어를 선택</string>
+    <string name="select_audio_language">오디오 언어를 선택하십시오</string>
+    <string name="select_subtitle_language">자막 언어를 선택</string>
+    <string name="select_osd_menu_language">OSD 메뉴 언어를 선택</string>
+    <string name="select_tv_shape">TV 모양을 선택</string>
+    <string name="select_view_mode">디스플레이 모드를 선택</string>
+    <string name="enable_uc_3d_effect">3D 효과</string>
+    <string name="enable_uc_drc_ctrl">DRC 제어</string>
+    <string name="disc_root">디스크 :</string>
+    <string name="source_title">리소스 변환</string>
+    <string name="source_message">DVD를 종료 할 것인지, 비디오 소스를 변환</string>
+    
+    <string name="load_dvd">DVD로드 중 ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">NO DISC가 없습니다</string>
+    <string name="load_dvd_out_disc">디스크 아웃</string>
+    <string name="cd_title">트랙 :</string>
+    <string name="data_disc_song_name">알 수없는 노래</string>
+    <string name="data_disc_song_singer">알 수없는 아티스트</string>
+    <string name="data_disc_song_special">알 수없는 앨범</string>
+    <string name="data_disc_file_list">파일 목록</string>
+    <string name="data_disc_index_list">폴더 목록</string>
+    <string name="brake_warn">제동하는 동안 비디오를 보지 마십시오!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">비디오</string>
+    <string name="music">음악</string>
+    <string name="picture">그림</string>
+    <string name="out">창고</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">명도</string>
+    <string name="contrast">대조</string>
+    <string name="tone">톤</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">소프트웨어를 종료</string>
+    <string name="quit_dlg_msg">DVD 소프트웨어를 종료할지 여부를</string>
+    <string name="quit_dlg_ok">예</string>
+    <string name="quit_dlg_cancel">아니</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">경고</string>
+    <string name="quit_disc_warn_msg">시스템에 디스크가 없습니다</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">읽기</string>
+    <string name="update_up">올라</string>
+    <string name="update_down">아래로</string>
+    <string name="update_left">왼쪽으로</string>
+    <string name="update_right">권리</string>
+    <string name="update_confirm">확인</string>
+    
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <!-- 其他 -->
+    <string name="dvd_fward">빨리 감기</string>
+    <string name="dvd_sward">되감기</string>
+    <string name="track">트랙: </string>
+    
+</resources>

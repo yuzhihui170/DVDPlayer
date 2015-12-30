@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">spellista</string>
+    <string name="settings">Inställningar</string>
+    <string name="language_code_title">språkinställningar</string>
+    <string name="language_code_summary">Användare språk</string>
+    <string name="video_title">Videoinställningar</string>
+    <string name="video_summary">Bildförhållande inställningar</string>
+    <string name="audio_title">ljudinställningar</string>
+    <string name="audio_summary">LJUDEFFEKT</string>
+    <string name="restore_title">Återställ fabriksinställningar</string>
+    <string name="restore_summary">Återställ till fabriksinställningar</string>
+    <string name="version_title"> protokoll version</string>
+    <string name="version_summary">1,00</string>
+    <string name="restore_message">Detta kommer att återställa alla DVD-inställningar till fabriksinställningen, är du säker?</string>
+    <string name="select_dvd_menu_language">Välj DVD menyspråk</string>
+    <string name="select_audio_language">Välj ljudspråk</string>
+    <string name="select_subtitle_language">Välj textningsspråk</string>
+    <string name="select_osd_menu_language">Välj menyspråk</string>
+    <string name="select_tv_shape">Välj TV-format</string>
+    <string name="select_view_mode">välja visningsläge</string>
+    <string name="enable_uc_3d_effect">3D-effekter</string>
+    <string name="enable_uc_drc_ctrl">DRC kontroll</string>
+    <string name="disc_root">skivor:</string>
+    <string name="source_title">Resurs konvertering</string>
+    <string name="source_message">Konvertera video källa, om att avsluta DVD</string>
+    <string name="load_dvd">Laddar DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">spår:</string>
+    <string name="data_disc_song_name">okänd låt</string>
+    <string name="data_disc_song_singer">Okänd artist</string>
+    <string name="data_disc_song_special">Okänt album</string>
+    <string name="data_disc_file_list">fIL-LISTA</string>
+    <string name="data_disc_index_list">folder List</string>
+    <string name="brake_warn">Driving, för din säkerhet, stängt video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">Video</string>
+    <string name="music">Musik</string>
+    <string name="picture">Bild</string>
+    <string name="out">En lager</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">Ljusstyrka</string>
+    <string name="contrast">Kontrast</string>
+    <string name="tone">Tone</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Avsluta Programvara</string>
+    <string name="quit_dlg_msg">Vare sig att avsluta DVD Software</string>
+    <string name="quit_dlg_ok">Ja</string>
+    <string name="quit_dlg_cancel">Ingen</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">Warn</string>
+    <string name="quit_disc_warn_msg">Ingen skiva i maskinen</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">Läs</string>
+    <string name="update_up">Upp</string>
+    <string name="update_down">Ned</string>
+    <string name="update_left">Vänster</string>
+    <string name="update_right">höger</string>
+    <string name="update_confirm">bekräfta</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">Advance</string>
+    <string name="dvd_sward">Retreat</string>
+    <string name="track">Spår: </string>
+
+</resources>

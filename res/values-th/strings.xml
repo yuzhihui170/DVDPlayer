@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">ดีวีดี</string>
+    <string name="play_list">เพลย์ลิส</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="language_code_title">การตั้งค่าภาษา</string>
+    <string name="language_code_summary">ภาษาผู้ใช้งาน</string>
+    <string name="video_title">การตั้งค่าวิดีโอ</string>
+    <string name="video_summary">การตั้งค่าอัตราส่วนภาพ</string>
+    <string name="audio_title">การตั้งค่าเสียง</string>
+    <string name="audio_summary">ผลเสียง</string>
+    <string name="restore_title">เรียกคืนการตั้งค่าโรงงาน</string>
+    <string name="restore_summary">รีเซ็ตการตั้งค่าเริ่มต้นจากโรงงาน</string>
+    <string name="version_title"> protocol รุ่น</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">นี้จะรีเซ็ตการตั้งค่าดีวีดีทั้งหมดไปที่การตั้งค่าเริ่มต้นจากโรงงานคุณแน่ใจ?</string>
+    <string name="select_dvd_menu_language">เลือกภาษาเมนูดีวีดี</string>
+    <string name="select_audio_language">เลือกภาษาเสียง</string>
+    <string name="select_subtitle_language">เลือกภาษาคำบรรยาย</string>
+    <string name="select_osd_menu_language">เลือกภาษาเมนู</string>
+    <string name="select_tv_shape">เลือกรูปร่างทีวี</string>
+    <string name="select_view_mode">เลือกโหมดการแสดงผล</string>
+    <string name="enable_uc_3d_effect">3D ผล</string>
+    <string name="enable_uc_drc_ctrl">การควบคุม DRC</string>
+    <string name="disc_root">แผ่น:</string>
+    <string name="source_title">การแปลงทรัพยากร</string>
+    <string name="source_message">แปลงแหล่งวิดีโอว่าจะออกดีวีดี</string>
+    <string name="load_dvd">โหลดดีวีดี ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">ไม่มีแผ่นดิสก์</string>
+    <string name="load_dvd_out_disc">แผ่นดิสก์ออก</string>
+    <string name="cd_title">ติดตาม:</string>
+    <string name="data_disc_song_name">เพลงไม่รู้จัก</string>
+    <string name="data_disc_song_singer">ไม่ทราบศิลปิน</string>
+    <string name="data_disc_song_special">ชื่ออัลบั้ม</string>
+    <string name="data_disc_file_list">รายชื่อไฟล์</string>
+    <string name="data_disc_index_list">รายการโฟลเดอร์</string>
+    <string name="brake_warn">การขับขี่เพื่อความปลอดภัยของคุณปิดวิดีโอ</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">วีดีโอ</string>
+    <string name="music">เพลง</string>
+    <string name="picture">ภาพ</string>
+    <string name="out">คลังสินค้า</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">ความสว่าง</string>
+    <string name="contrast">ตรงกันข้าม</string>
+    <string name="tone">โทน</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">ออกจากซอฟแวร์</string>
+    <string name="quit_dlg_msg">ไม่ว่าจะออกจากซอฟท์แว DVD</string>
+    <string name="quit_dlg_ok">ใช่</string>
+    <string name="quit_dlg_cancel">ไม่</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">เตือน</string>
+    <string name="quit_disc_warn_msg">แผ่นดิสก์ในเครื่องไม่มี</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">อ่าน</string>
+    <string name="update_up">ขึ้น</string>
+    <string name="update_down">ลง</string>
+    <string name="update_left">ซ้าย</string>
+    <string name="update_right">ขวา</string>
+    <string name="update_confirm">ยืนยัน</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">ความก้าวหน้า</string>
+    <string name="dvd_sward">ล่าถอย</string>
+    <string name="track">แทร็ค: </string>
+
+</resources>

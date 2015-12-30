@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">播放列表</string>
+    <string name="settings">設置</string>
+    <string name="language_code_title">語言設置</string>
+    <string name="language_code_summary">設置用戶語言</string>
+    <string name="video_title">視頻設置</string>
+    <string name="video_summary">設置畫面比例</string>
+    <string name="audio_title">音頻設置</string>
+    <string name="audio_summary">音效設置</string>
+    <string name="restore_title">恢複出廠設置</string>
+    <string name="restore_summary">恢複出廠設置</string>
+    <string name="version_title">協議版本</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">This will reset all DVD settings to factory default setting, are you sure?</string>
+    <string name="select_dvd_menu_language">Select DVD menu language</string>
+    <string name="select_audio_language">Select audio language</string>
+    <string name="select_subtitle_language">Select subtitle language</string>
+    <string name="select_osd_menu_language">Select OSD menu language</string>
+    <string name="select_tv_shape">TV比例</string>
+    <string name="select_view_mode">選擇顯示模式</string>
+    <string name="enable_uc_3d_effect">3D效果</string>
+    <string name="enable_uc_drc_ctrl">DRC控制</string>
+    <string name="disc_root">碟片：</string>
+    <string name="source_title">資源轉換</string>
+    <string name="source_message">視頻源轉換，是否退出DVD</string>
+    
+    <string name="load_dvd">讀碟中...</string>
+    <string name="load_sdhc">正在讀卡，請確保SD卡已插入卡槽</string>
+    <string name="load_time_out">等待超時</string>
+    <string name="load_dvd_no_disc">沒有碟片</string>
+    <string name="load_dvd_out_disc">碟片退出</string>
+    <string name="cd_title">曲目：</string>
+    <string name="data_disc_song_name">未知歌曲</string>
+    <string name="data_disc_song_singer">未知藝術家</string>
+    <string name="data_disc_song_special">未知專輯</string>
+    <string name="data_disc_file_list">文件列表</string>
+    <string name="data_disc_index_list">目錄列表</string>
+    <string name="brake_warn">行駛中，爲了您的安全，已關閉視頻!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">視頻</string>
+    <string name="music">音樂</string>
+    <string name="picture">圖片</string>
+    <string name="out">出倉</string>
+    
+    <!-- 亮度對話框 -->
+    <string name="bright">亮度</string>
+    <string name="contrast">對比度</string>
+    <string name="tone">色度</string>
+    
+    <!-- 退出對話框 -->
+    <string name="quit_dlg_title">退出軟件</string>
+    <string name="quit_dlg_msg">是否退出DVD軟件</string>
+    <string name="quit_dlg_ok">退出</string>
+    <string name="quit_dlg_cancel">不退出</string>
+    
+    <!-- 提示對話框 -->
+    <string name="quit_disc_warn_title">警告</string>
+    <string name="quit_disc_warn_msg">機器中沒有碟片</string>
+    
+    <!-- 升級界面 -->
+    <string name="update_read">讀碟</string>
+    <string name="update_up">上</string>
+    <string name="update_down">下</string>
+    <string name="update_left">左</string>
+    <string name="update_right">右</string>
+    <string name="update_confirm">確定</string>
+
+    <!-- 循環模式 -->
+    <string name="circle_mode_random">隨機循環</string>
+    <string name="circle_mode_list">列表循環</string>
+    <string name="circle_mode_single">單曲循環</string>
+    <string name="circle_mode_nocircle">無循環</string>
+
+    <!-- 聲道 -->
+    <string name="sound_mode_stereo">立體聲</string>
+    <string name="sound_mode_left">左聲道</string>
+    <string name="sound_mode_right">右聲道</string>
+    <string name="sound_mode_mixed">混合</string>
+    
+    <string name="no_dvd">請插入碟片!</string>
+    <string name="bad_disc">壞碟!</string>
+    
+    <!-- 其他 -->
+      <string name="dvd_fward">快進</string>
+    <string name="dvd_sward">快退</string>
+    <string name="track">曲  目：</string>
+    
+</resources>

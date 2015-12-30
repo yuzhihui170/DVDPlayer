@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Setări</string>
+    <string name="language_code_title">setările de limbă</string>
+    <string name="language_code_summary">limba utilizator</string>
+    <string name="video_title">setările video</string>
+    <string name="video_summary">Setări raport de aspect</string>
+    <string name="audio_title">setările de sunet</string>
+    <string name="audio_summary">Efect de sunet</string>
+    <string name="restore_title">Revenirea la setările din fabrică</string>
+    <string name="restore_summary">A reveni la setările implicite din fabrică</string>
+    <string name="version_title"> protocol versiunea</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Acest lucru va reseta toate setările DVD la setările din fabrică, esti sigur?</string>
+    <string name="select_dvd_menu_language">Selectați limba meniului DVD</string>
+    <string name="select_audio_language">Selectați limba audio</string>
+    <string name="select_subtitle_language">Selectați limba de subtitrare</string>
+    <string name="select_osd_menu_language">Selectați limba meniului OSD</string>
+    <string name="select_tv_shape">Selectați forma TV</string>
+    <string name="select_view_mode">selecta modul de afișare</string>
+    <string name="enable_uc_3d_effect">efecte 3D</string>
+    <string name="enable_uc_drc_ctrl">controlul RDC</string>
+    <string name="disc_root">discuri:</string>
+    <string name="source_title">conversie a resurselor</string>
+    <string name="source_message">Converti sursa video, fie pentru a ieși pe DVD</string>
+    <string name="load_dvd">Se încarcă DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">nu disc</string>
+    <string name="load_dvd_out_disc">discul</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">Unknown Song</string>
+    <string name="data_disc_song_singer">Unknown Artist</string>
+    <string name="data_disc_song_special">Album necunoscut</string>
+    <string name="data_disc_file_list">Lista de fișiere</string>
+    <string name="data_disc_index_list">Listă foldere</string>
+    <string name="brake_warn">De conducere, pentru siguranța dumneavoastră, închis video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">muzică</string>
+    <string name="picture">imagine</string>
+    <string name="out">Un depozit</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">strălucire</string>
+    <string name="contrast">contrast</string>
+    <string name="tone">ton</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Ieșiți Software</string>
+    <string name="quit_dlg_msg">Dacă pentru a ieși din software-ul DVD</string>
+    <string name="quit_dlg_ok">da</string>
+    <string name="quit_dlg_cancel">nu</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">avertiza</string>
+    <string name="quit_disc_warn_msg">Nici un disc în aparat</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">citit</string>
+    <string name="update_up">Up</string>
+    <string name="update_down">jos</string>
+    <string name="update_left">stânga</string>
+    <string name="update_right">dreapta</string>
+    <string name="update_confirm">confirma</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">avansa</string>
+    <string name="dvd_sward">retragere</string>
+    <string name="track">Melodii: </string>
+
+</resources>

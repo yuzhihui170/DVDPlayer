@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Beállítások</string>
+    <string name="language_code_title">Nyelvi beállítások</string>
+    <string name="language_code_summary">Felhasználó nyelv</string>
+    <string name="video_title">Videobeállítások</string>
+    <string name="video_summary">Képarány beállítások</string>
+    <string name="audio_title">Hangbeállítások</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Gyári beállítások visszaállítása</string>
+    <string name="restore_summary">A gyári alapértelmezett beállítások</string>
+    <string name="version_title">Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Ez visszaállítja az összes DVD beállítást gyári alapbeállítás, biztos vagy benne?</string>
+    <string name="select_dvd_menu_language">Válassza ki a DVD menü nyelvét</string>
+    <string name="select_audio_language">Válassza ki a hang nyelvét</string>
+    <string name="select_subtitle_language">Válassza ki a felirat nyelvét</string>
+    <string name="select_osd_menu_language">Válassza ki az OSD menü nyelvét</string>
+    <string name="select_tv_shape">Válassza ki a TV-forma</string>
+    <string name="select_view_mode">válassza ki a megjelenítési mód</string>
+    <string name="enable_uc_3d_effect"> 3D hatások</string>
+    <string name="enable_uc_drc_ctrl">DRC vezérlő</string>
+    <string name="disc_root">lemezek:</string>
+    <string name="source_title">Erőforrás átalakítás</string>
+    <string name="source_message">Megtérít video forrás, hogy a kilépéshez DVD</string>
+    <string name="load_dvd">Betöltése DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">Pálya:</string>
+    <string name="data_disc_song_name">UnKnown Song</string>
+    <string name="data_disc_song_singer">Ismeretlen előadó</string>
+    <string name="data_disc_song_special">Ismeretlen album</string>
+    <string name="data_disc_file_list">fájl lista</string>
+    <string name="data_disc_index_list">Folder List</string>
+    <string name="brake_warn">Vezetői, a biztonság, zárt video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">videó</string>
+    <string name="music">zene</string>
+    <string name="picture">kép</string>
+    <string name="out">raktár</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">fényesség</string>
+    <string name="contrast">kontraszt</string>
+    <string name="tone">tónus</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Kilépés Szoftver</string>
+    <string name="quit_dlg_msg">Függetlenül attól, hogy kilépjen a DVD szoftver</string>
+    <string name="quit_dlg_ok">igen</string>
+    <string name="quit_dlg_cancel">nincs</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">figyelmeztet</string>
+    <string name="quit_disc_warn_msg">No Disc géppel</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">olvas</string>
+    <string name="update_up">fel</string>
+    <string name="update_down">lefelé</string>
+    <string name="update_left">Bal</string>
+    <string name="update_right">jobb</string>
+    <string name="update_confirm">megerősítése</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">előleg</string>
+    <string name="dvd_sward">visszavonulás</string>
+    <string name="track">Számok: </string>
+
+</resources>

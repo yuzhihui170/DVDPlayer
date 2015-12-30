@@ -1,0 +1,126 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apical.dvdplayer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!--  -->
+        <activity
+            android:name="com.apical.dvdplayer.DVDLaunchActivity"
+            android:label="@string/DVD" 
+            android:theme="@style/translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name="com.apical.dvdplayer.SDHCLaunchActivity"
+            android:icon="@drawable/ic_sdhc"
+            android:label="@string/SDHC"
+            android:theme="@style/translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDLoadingActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDCDPlayerActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDDVDPlayerActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDMp5Activity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDMp5MusicActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDMp5PictureActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.DVDMp5VideoActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.SDHCLoadingActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.SDHCMp5Activity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.SDHCMp5MusicActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.SDHCMp5PictureActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        <activity
+            android:name="com.apical.dvdplayer.dvdview.SDHCMp5VideoActivity"
+            android:theme="@style/simplestyle" >
+        </activity>
+        
+        <receiver android:name="com.apical.dvdplayer.dvdcontrol.DVDBroadcastReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="Apical_Key_Broadcast" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="apk_bc_setup" />
+            </intent-filter> 
+            <intent-filter >
+                <action android:name="apk_bc_key" />
+            </intent-filter>        
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <data android:scheme="file"/>
+            </intent-filter> 
+        </receiver>
+        
+        <service android:name="com.apical.dvdplayer.dvdcontrol.DVDService">
+            <intent-filter >
+                <action android:name="com.a.dvd.ACTION_DVDPLAYER" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="com.csr.dvd.ACTION_GET_STATUS" />
+            </intent-filter>
+        </service>
+            
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">プレイリスト</string>
+    <string name="settings">設定</string>
+    <string name="language_code_title">言語設定</string>
+    <string name="language_code_summary">ユーザー言語</string>
+    <string name="video_title">ビデオ設定</string>
+    <string name="video_summary">アスペクト比の設定</string>
+    <string name="audio_title">サウンドの設定</string>
+    <string name="audio_summary">サウンドエフェクト</string>
+    <string name="restore_title">工場出荷時の設定を復元</string>
+    <string name="restore_summary">工場出荷時のデフォルト設定へのリセット</string>
+    <string name="version_title"> プロトコルバージョン</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">これは工場出荷時の設定にすべてのDVDの設定がリセットされます、よろしいですか。</string>
+    <string name="select_dvd_menu_language">DVDメニューの言語を選択</string>
+    <string name="select_audio_language">音声言語を選択してください</string>
+    <string name="select_subtitle_language">字幕言語を選択してください</string>
+    <string name="select_osd_menu_language">OSDメニューの言語を選択</string>
+    <string name="select_tv_shape">テレビの形を選択してください</string>
+    <string name="select_view_mode">表示モードを選択</string>
+    <string name="enable_uc_3d_effect"> 3D効果</string>
+    <string name="enable_uc_drc_ctrl">DRCコントロール</string>
+    <string name="disc_root">ディスク：</string>
+    <string name="source_title">リソース変換</string>
+    <string name="source_message">DVDを終了するか否かを、ビデオソースを変換する</string>
+    <string name="load_dvd">DVDを読み込んでいます...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">いいえディスクません</string>
+    <string name="load_dvd_out_disc">ディスクアウト</string>
+    <string name="cd_title">トラック：</string>
+    <string name="data_disc_song_name">未知の歌</string>
+    <string name="data_disc_song_singer">無名の画家</string>
+    <string name="data_disc_song_special">UnUnKnownアルバム</string>
+    <string name="data_disc_file_list">ファイルリスト</string>
+    <string name="data_disc_index_list">フォルダー一覧</string>
+    <string name="brake_warn">ブレーキングしながら、ビデオを見てはいけない！</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">ビデオ</string>
+    <string name="music">音楽</string>
+    <string name="picture">絵</string>
+    <string name="out">倉庫</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">明るさ</string>
+    <string name="contrast">コントラスト</string>
+    <string name="tone">トーン</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">ソフトウェアを終了する</string>
+    <string name="quit_dlg_msg">DVDソフトを終了するかどうか</string>
+    <string name="quit_dlg_ok">はい</string>
+    <string name="quit_dlg_cancel">ノー</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">警告する</string>
+    <string name="quit_disc_warn_msg">マシンにディスクません</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">リード</string>
+    <string name="update_up">アップ</string>
+    <string name="update_down">ダウン</string>
+    <string name="update_left">左</string>
+    <string name="update_right">右</string>
+    <string name="update_confirm">確認する</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">早送り</string>
+    <string name="dvd_sward">巻き戻し</string>
+    <string name="track">トラック: </string>
+
+</resources>

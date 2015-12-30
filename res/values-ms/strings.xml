@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">senarai main</string>
+    <string name="settings">Tetapan</string>
+    <string name="language_code_title">tetapan bahasa</string>
+    <string name="language_code_summary">bahasa pengguna</string>
+    <string name="video_title">tetapan video</string>
+    <string name="video_summary">Penetapan nisbah aspek</string>
+    <string name="audio_title">tetapan bunyi</string>
+    <string name="audio_summary">Kesan Bunyi</string>
+    <string name="restore_title">Simpan semula tetapan kilang</string>
+    <string name="restore_summary">Menetapkan semula ke tetapan lalai kilang</string>
+    <string name="version_title"> Protocol versi</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Ini akan menetapkan semula semua tetapan DVD ke tetapan lalai kilang, adakah anda pasti?</string>
+    <string name="select_dvd_menu_language">Pilih bahasa menu DVD</string>
+    <string name="select_audio_language">Pilih bahasa audio</string>
+    <string name="select_subtitle_language">Pilih bahasa sari kata</string>
+    <string name="select_osd_menu_language">Pilih bahasa menu OSD</string>
+    <string name="select_tv_shape">Pilih bentuk TV</string>
+    <string name="select_view_mode">memilih mod paparan</string>
+    <string name="enable_uc_3d_effect"> kesan 3D</string>
+    <string name="enable_uc_drc_ctrl">DRC kawalan</string>
+    <string name="disc_root">cakera:</string>
+    <string name="source_title">penukaran sumber</string>
+    <string name="source_message">Tukar sumber video, sama ada untuk keluar DVD</string>
+    <string name="load_dvd">Memuatkan DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">cakera Out</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">Song diketahui</string>
+    <string name="data_disc_song_singer">Unknown Artist</string>
+    <string name="data_disc_song_special">Album</string>
+    <string name="data_disc_file_list">Senarai Fail</string>
+    <string name="data_disc_index_list">Senarai folder</string>
+    <string name="brake_warn">Memandu, untuk keselamatan anda, ditutup video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">muzik</string>
+    <string name="picture">Picture</string>
+    <string name="out">gudang A</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">kecerahan</string>
+    <string name="contrast">Sebaliknya</string>
+    <string name="tone">nada</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">keluar Software</string>
+    <string name="quit_dlg_msg">Sama ada untuk keluar Software DVD</string>
+    <string name="quit_dlg_ok">ya</string>
+    <string name="quit_dlg_cancel">tiada</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">memberi amaran</string>
+    <string name="quit_disc_warn_msg">No Disc di dalam mesin</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">Baca</string>
+    <string name="update_up">up</string>
+    <string name="update_down">Down</string>
+    <string name="update_left">Kiri</string>
+    <string name="update_right">hak</string>
+    <string name="update_confirm">mengesahkan</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">Fast Forward</string>
+    <string name="dvd_sward">Rewind</string>
+    <string name="track">trek</string>
+
+</resources>

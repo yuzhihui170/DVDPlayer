@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagetextbutton="http://schemas.android.com/apk/res/com.apical.dvdplayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/datalistact_llayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.apical.dvdplayer.dvdview.ImageTextButton
+            android:id="@+id/datalist_btn_vedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/datalistbtnselector"
+            imagetextbutton:text="@string/video"
+            imagetextbutton:textSize="25dp" />
+
+        <com.apical.dvdplayer.dvdview.ImageTextButton
+            android:id="@+id/datalist_btn_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/datalistbtnselector"
+            imagetextbutton:text="@string/music"
+            imagetextbutton:textSize="25dp" />
+
+        <com.apical.dvdplayer.dvdview.ImageTextButton
+            android:id="@+id/datalist_btn_pictrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/datalistbtnselector"
+            imagetextbutton:text="@string/picture"
+            imagetextbutton:textSize="25dp" />
+
+        <com.apical.dvdplayer.dvdview.ImageTextButton
+            android:id="@+id/datalist_btn_outdisc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/datalistbtnselector"
+            imagetextbutton:text="@string/out"
+            imagetextbutton:textSize="25dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/DataDiscList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@id/datalistact_llayout0"
+        android:background="@drawable/datalistlistview_background"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/datalistlistview_interval"
+        android:listSelector="@drawable/datalistlistview_sel"
+        android:paddingBottom="12dp"
+        android:paddingTop="4dp" />
+
+</RelativeLayout>

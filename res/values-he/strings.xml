@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">פלייליסט</string>
+    <string name="settings">הגדרות</string>
+    <string name="language_code_title">הגדרות שפה</string>
+    <string name="language_code_summary">שפת משתמש</string>
+    <string name="video_title">הגדרות וידאו</string>
+    <string name="video_summary">הגדרות יחס גובה</string>
+    <string name="audio_title">הגדרות קול</string>
+    <string name="audio_summary">אפקט צליל</string>
+    <string name="restore_title">שחזור הגדרות יצרן</string>
+    <string name="restore_summary">איפוס להגדרות ברירת המחדל של יצרן</string>
+    <string name="version_title"> פרוטוקול גרסה</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">זו תאפס את כל הגדרות ה-DVD להגדרת ברירת המחדל של היצרן, אתה בטוח?</string>
+    <string name="select_dvd_menu_language">בחר את השפה של תפריט ה-DVD</string>
+    <string name="select_audio_language">בחר את שפת שמע</string>
+    <string name="select_subtitle_language">בחר את שפת כתוביות</string>
+    <string name="select_osd_menu_language">בחר את שפת תפריט מסך</string>
+    <string name="select_tv_shape">בחר צורת טלוויזיה</string>
+    <string name="select_view_mode">בחר את מצב התצוגה</string>
+    <string name="enable_uc_3d_effect"> אפקטי 3D</string>
+    <string name="enable_uc_drc_ctrl">DRC שליטה</string>
+    <string name="disc_root">דיסקים:</string>
+    <string name="source_title">המרת משאב</string>
+    <string name="source_message">להמיר מקור וידאו, בין אם כדי לצאת ה-DVD</string>
+    
+    <string name="load_dvd">טעינת ה-DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">אין דיסק</string>
+    <string name="load_dvd_out_disc">דיסק מתוך</string>
+    <string name="cd_title">מסלול:</string>
+    <string name="data_disc_song_name">שיר לא ידוע</string>
+    <string name="data_disc_song_singer">אמן לא ידוע</string>
+    <string name="data_disc_song_special">אלבום לא ידוע</string>
+    <string name="data_disc_file_list">רשימת קבצים</string>
+    <string name="data_disc_index_list">רשימת תיקיות</string>
+    <string name="brake_warn">אל תסתכלו בוידאו בזמן בלימה!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">Video</string>
+    <string name="music">Music</string>
+    <string name="picture">Picture</string>
+    <string name="out">Out</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">בהירות</string>
+    <string name="contrast">קונטרסט</string>
+    <string name="tone">טון</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">צא מתוכנה</string>
+    <string name="quit_dlg_msg">בין אם כדי לצאת מתוכנת DVD</string>
+    <string name="quit_dlg_ok">כן</string>
+    <string name="quit_dlg_cancel">לא</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">להזהיר</string>
+    <string name="quit_disc_warn_msg">אין דיסק במכונה</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">לקרוא</string>
+    <string name="update_up">למעלה</string>
+    <string name="update_down">למטה</string>
+    <string name="update_left">שמאל</string>
+    <string name="update_right">נכון</string>
+    <string name="update_confirm">לאשר</string>
+
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <!-- 其他 -->
+    <string name="dvd_fward">העברה מהירה קדימה</string>
+    <string name="dvd_sward">קדימה, תריץ אחורה</string>
+    <string name="track">: מסלולים</string>
+    
+</resources>

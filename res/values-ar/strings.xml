@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">دي في دي</string>
+    <string name="play_list">قائمة التشغيل</string>
+    <string name="settings">إعدادات</string>
+    <string name="language_code_title">إعدادات اللغة</string>
+    <string name="language_code_summary">لغة المستخدم</string>
+    <string name="video_title">إعدادات الفيديو</string>
+    <string name="video_summary">ضبط نسبة العرض إلى الارتفاع</string>
+    <string name="audio_title">إعدادات الصوت</string>
+    <string name="audio_summary">تأثير الصوت</string>
+    <string name="restore_title">استعادة ضبط المصنع</string>
+    <string name="restore_summary">إعادة تعيين إعدادات المصنع الافتراضية</string>
+    <string name="version_title"> إصدار بروتوكول</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">هذا وسوف إعادة تعيين كافة الإعدادات دي في دي لإعداد المصنع الافتراضي، هل أنت متأكد؟</string>
+    <string name="select_dvd_menu_language">حدد لغة القائمة DVD</string>
+    <string name="select_audio_language">اختر لغة الصوت</string>
+    <string name="select_subtitle_language">اختر لغة الترجمة</string>
+    <string name="select_osd_menu_language">اختر OSD اللغة القائمة</string>
+    <string name="select_tv_shape">حدد شكل TV</string>
+    <string name="select_view_mode">حدد وضع العرض</string>
+    <string name="enable_uc_3d_effect"> 3D الآثار</string>
+    <string name="enable_uc_drc_ctrl">السيطرة جمهورية الكونغو الديمقراطية</string>
+    <string name="disc_root">الأقراص:</string>
+    <string name="source_title">تحويل الموارد</string>
+    <string name="source_message">تحويل مصدر الفيديو، سواء للخروج DVD</string>
+    
+    <string name="load_dvd">تحميل دي في دي ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">لا القرص</string>
+    <string name="load_dvd_out_disc">قرص طعام</string>
+    <string name="cd_title">المسار:</string>
+    <string name="data_disc_song_name">أغنية غير معروفة</string>
+    <string name="data_disc_song_singer">فنان غير معروف</string>
+    <string name="data_disc_song_special">الألبوم غير معروف</string>
+    <string name="data_disc_file_list">قائمة ملف</string>
+    <string name="data_disc_index_list">قائمة المجلدات</string>
+    <string name="brake_warn">القيادة، حفاظا على سلامتك، أغلقت الفيديو!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">فيديو</string>
+    <string name="music">موسيقى</string>
+    <string name="picture">صور</string>
+    <string name="out">مستودع</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">سطوع</string>
+    <string name="contrast">تباين</string>
+    <string name="tone">نغمة</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">إنهاء البرامج</string>
+    <string name="quit_dlg_msg">سواء للخروج من برنامج دي في دي</string>
+    <string name="quit_dlg_ok">نعم</string>
+    <string name="quit_dlg_cancel">لا</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">حذر</string>
+    <string name="quit_disc_warn_msg">لا القرص في الجهاز</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">قرأ</string>
+    <string name="update_up">فوق</string>
+    <string name="update_down">إلى</string>
+    <string name="update_left">غادر</string>
+    <string name="update_right">حق</string>
+    <string name="update_confirm">أكد</string>
+    
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+        <!-- 其他 -->
+    <string name="dvd_fward">تقدم</string>
+    <string name="dvd_sward">تراجع</string>
+    <string name="track">المسارات: </string>
+</resources>

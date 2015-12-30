@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">Плейлист</string>
+    <string name="settings">Настройки</string>
+    <string name="language_code_title">Языковые настройки</string>
+    <string name="language_code_summary">Язык меню</string>
+    <string name="video_title">Настройки видео</string>
+    <string name="video_summary">Соотношение сторон</string>
+    <string name="audio_title">Настройки аудио</string>
+    <string name="audio_summary">Эффект звучания</string>
+    <string name="restore_title">Восстановление заводских настроек</string>
+    <string name="restore_summary">Восстановить заводские настройки</string>
+    <string name="version_title">Версия протокола</string>
+    <string name="version_summary">1,00</string>
+    <string name="restore_message">Это приведёт к сбросу всех настроек DVD к заводским, вы уверены?</string>
+    <string name="select_dvd_menu_language">Выберите язык меню DVD</string>
+    <string name="select_audio_language">Выберите язык аудио</string>
+    <string name="select_subtitle_language">Выберите язык субтитров</string>
+    <string name="select_osd_menu_language">Выберите язык экранного меню</string>
+    <string name="select_tv_shape">Выбрать форму ТВ</string>
+    <string name="select_view_mode">Выбрать режим отображения</string>
+    <string name="enable_uc_3d_effect">3D-эффекты</string>
+    <string name="enable_uc_drc_ctrl">Управление DRC</string>
+    <string name="disc_root">Диски:</string>
+    <string name="source_title">Преобразование ресурсов</string>
+    <string name="source_message">Преобразование источника видео, нужно ли выходить из DVD?</string>
+    <string name="load_dvd">Загрузка DVD...</string>
+    <string name="load_sdhc">Считывание, убедитесь, что SD-карта вставлена</string>
+    <string name="load_time_out">Тайм-аут</string>
+    <string name="load_dvd_no_disc">Нет диска</string>
+    <string name="load_dvd_out_disc">Диск извлечён</string>
+    <string name="cd_title">Дорожка:</string>
+    <string name="data_disc_song_name">Неизвестная композиция</string>
+    <string name="data_disc_song_singer">Неизвестный исполнитель</string>
+    <string name="data_disc_song_special">Неизвестный альбом</string>
+    <string name="data_disc_file_list">Список файлов</string>
+    <string name="data_disc_index_list">Список папок</string>
+    <string name="brake_warn">Просмотр во время езды не рекомендуется!</string>
+
+    <!-- 数据列表 -->
+    <string name="video">видео</string>
+    <string name="music">музыка</string>
+    <string name="picture">картинка</string>
+    <string name="out">склад</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">Яркость</string>
+    <string name="contrast">Контрастность</string>
+    <string name="tone">Тон</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Выход из программы</string>
+    <string name="quit_dlg_msg">Выйти из программы DVD?</string>
+    <string name="quit_dlg_ok">Ok</string>
+    <string name="quit_dlg_cancel">Нет</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">Предупреждать</string>
+    <string name="quit_disc_warn_msg">Нет диска</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">Читать</string>
+    <string name="update_up">Вверх</string>
+    <string name="update_down">Вниз</string>
+    <string name="update_left">Влево</string>
+    <string name="update_right">Вправо</string>
+    <string name="update_confirm">Подтвердить</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Вразброс</string>
+    <string name="circle_mode_list">Список</string>
+    <string name="circle_mode_single">Один раз</string>
+    <string name="circle_mode_nocircle">Не повторять</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Стерео</string>
+    <string name="sound_mode_left">Левый канал</string>
+    <string name="sound_mode_right">Правый канал</string>
+    <string name="sound_mode_mixed">Смешанно</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">Вперёд</string>
+    <string name="dvd_sward">Назад</string>
+    <string name="track">Дорожка: </string>
+	
+    <string name="app_name">DVD</string>
+	<string name="app_sdhc_name">SDHC</string>
+	<string name="app_usb2_name">USB2</string>
+	<string name="menu_settings">Настройки</string>
+	<string name="cd_songname">Название композиции：</string>
+	<string name="no_dvd">Пожалуйста вставьте диск!</string>
+	<string name="bad_disc">Ошибка диска!</string>
+	<string name="dvd_playspeed2">*2</string>
+	<string name="dvd_playspeed4">*4</string>
+	<string name="dvd_playspeed8">*8</string>
+	<string name="dvd_playspeed16">*16</string>
+	<string name="dvd_playspeed32">*32</string>
+	
+	<string name="v_n_supported">Vedio не поддерживается!</string>
+    <string name="m_n_supported">Музыка не поддерживается!</string>
+    <string name="p_n_supported">Изображение не поддерживается!</string>
+    <string name="bad_file">Плохой файл!</string>
+    
+    <string name="pic_load">Идет загрузка</string>
+	
+</resources>

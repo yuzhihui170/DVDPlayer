@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Ayarlar</string>
+    <string name="language_code_title">Dil ayarları</string>
+    <string name="language_code_summary">kullanıcı dili</string>
+    <string name="video_title">Video ayarları</string>
+    <string name="video_summary">Boy oranı ayarları</string>
+    <string name="audio_title">ses ayarları</string>
+    <string name="audio_summary">ses Efekti</string>
+    <string name="restore_title">Fabrika ayarlarına geri dön</string>
+    <string name="restore_summary">Varsayılan fabrika ayarlarına sıfırlayın</string>
+    <string name="version_title"> Protokolü sürüm</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Bu fabrika ayarı için tüm DVD ayarlarını sıfırlar, emin misiniz?</string>
+    <string name="select_dvd_menu_language">DVD menü dili seçin</string>
+    <string name="select_audio_language">Ses dilini seçmek</string>
+    <string name="select_subtitle_language">Altyazı dilini seçmek</string>
+    <string name="select_osd_menu_language">OSD menü dilini seçiniz</string>
+    <string name="select_tv_shape">TV şeklini seçin</string>
+    <string name="select_view_mode">ekran modunu seçmek</string>
+    <string name="enable_uc_3d_effect">3D efektler</string>
+    <string name="enable_uc_drc_ctrl">DRC kontrolü</string>
+    <string name="disc_root">diskler:</string>
+    <string name="source_title">kaynak dönüşüm</string>
+    <string name="source_message">DVD çıkmak için olsun, video kaynağı dönüştürmek</string>
+    <string name="load_dvd">DVD yükleniyor ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disk</string>
+    <string name="load_dvd_out_disc">disk Out</string>
+    <string name="cd_title">parça:</string>
+    <string name="data_disc_song_name">UnKnown Şarkı</string>
+    <string name="data_disc_song_singer">UnKnown Sanatçı</string>
+    <string name="data_disc_song_special">UnKnown Albüm</string>
+    <string name="data_disc_file_list">dosya Listesi</string>
+    <string name="data_disc_index_list">klasör Listesi</string>
+    <string name="brake_warn">Sürüş güvenliğiniz için, bir video kapalı!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">müzik</string>
+    <string name="picture">resim</string>
+    <string name="out">bir depo</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">parlaklık</string>
+    <string name="contrast">kontrast</string>
+    <string name="tone">ton</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Yazılım çıkın</string>
+    <string name="quit_dlg_msg">DVD Yazılım çıkmak için olsun</string>
+    <string name="quit_dlg_ok">evet</string>
+    <string name="quit_dlg_cancel">yok</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">uyarmak</string>
+    <string name="quit_disc_warn_msg">Makine yok Disk</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">okumak</string>
+    <string name="update_up">yukarı</string>
+    <string name="update_down">aşağı</string>
+    <string name="update_left">sol</string>
+    <string name="update_right">doğru</string>
+    <string name="update_confirm">onaylamak</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">Fast Forward</string>
+    <string name="dvd_sward">geri sarma</string>
+    <string name="track">raylar: </string>
+
+</resources>

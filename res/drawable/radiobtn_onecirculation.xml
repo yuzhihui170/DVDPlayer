@@ -1,0 +1,9 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:state_checked="false" android:drawable="@drawable/circulationmode_onecirculation_off"/>
+    <item android:state_checked="true"  android:drawable="@drawable/circulationmode_onecirculation_on"/>
+    <item android:state_selected="true"  android:drawable="@drawable/circulationmode_onecirculation_on"/>
+    <item android:state_pressed="true"  android:drawable="@drawable/circulationmode_onecirculation_on"/>
+ 
+</selector>

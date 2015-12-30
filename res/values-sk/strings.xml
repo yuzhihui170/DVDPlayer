@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dvd">DVD</string>
+    <string name="play_list">playlist</string>
+    <string name="settings">Nastavenie</string>
+    <string name="language_code_title">Nastavenie jazyka</string>
+    <string name="language_code_summary">užívateľ jazyk</string>
+    <string name="video_title">Nastavenie videa</string>
+    <string name="video_summary">Nastavenie pomeru strán</string>
+    <string name="audio_title">Nastavenie zvuku</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Obnovenie nastavení z výroby</string>
+    <string name="restore_summary">Obnovenie nastavení z výroby</string>
+    <string name="version_title"> protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Tým sa obnoví všetky nastavenia DVD na predvolené nastavenia z výroby, ste si istý?</string>
+    <string name="select_dvd_menu_language">Vyberte jazyk ponuky disku DVD</string>
+    <string name="select_audio_language">Vyberte jazyk zvuku</string>
+    <string name="select_subtitle_language">Výber jazyka titulkov</string>
+    <string name="select_osd_menu_language">Vyberte jazyk OSD menu</string>
+    <string name="select_tv_shape">Vybrať TV tvar</string>
+    <string name="select_view_mode">Voľba režimu zobrazenia</string>
+    <string name="enable_uc_3d_effect"> 3D efekty</string>
+    <string name="enable_uc_drc_ctrl">DRC riadenie</string>
+    <string name="disc_root">disky:</string>
+    <string name="source_title">zdroj konverzie</string>
+    <string name="source_message">Previesť video zdroje, či už ukončíte DVD</string>
+    <string name="load_dvd">Načítanie DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">UnKnown Song</string>
+    <string name="data_disc_song_singer">unknown Artist</string>
+    <string name="data_disc_song_special">Neznámy albumu</string>
+    <string name="data_disc_file_list">zoznam súborov</string>
+    <string name="data_disc_index_list">zoznam zložiek</string>
+    <string name="brake_warn">Driving, pre Vašu bezpečnosť, uzavretá video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">hudba</string>
+    <string name="picture">obrázok</string>
+    <string name="out">sklad</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">jas</string>
+    <string name="contrast">kontrast</string>
+    <string name="tone">tón</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">ukončite softvér</string>
+    <string name="quit_dlg_msg">Či sa má ukončiť Software DVD</string>
+    <string name="quit_dlg_ok">áno</string>
+    <string name="quit_dlg_cancel">nie</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">varovať</string>
+    <string name="quit_disc_warn_msg">No Disc v stroji</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">čítať</string>
+    <string name="update_up">hore</string>
+    <string name="update_down">dole</string>
+    <string name="update_left">ľavý</string>
+    <string name="update_right">právo</string>
+    <string name="update_confirm">Potvrdiť</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">postup</string>
+    <string name="dvd_sward">ustúpiť</string>
+    <string name="track">skladby: </string>
+
+</resources>

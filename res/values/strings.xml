@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="DVD">DVD</string>
+    <string name="SDHC">SDHC</string>
+    <string name="app_name">DVD</string>
+    <string name="app_sdhc_name">SDHC</string>
+    <string name="app_usb2_name">USB2</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dvd">DVD</string>
+    <string name="play_list">Playlist</string>
+    <string name="settings">Settings</string>
+    <string name="language_code_title">Language settings</string>
+    <string name="language_code_summary">User language</string>
+    <string name="video_title">Video settings</string>
+    <string name="video_summary">Aspect ratio settings</string>
+    <string name="audio_title">Sound settings</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Restore factory settings</string>
+    <string name="restore_summary">Reset to factory default settings</string>
+    <string name="version_title"> Protocol version</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">This will reset all DVD settings to factory default setting, are you sure?</string>
+    <string name="select_dvd_menu_language">Select DVD menu language</string>
+    <string name="select_audio_language">Select audio language</string>
+    <string name="select_subtitle_language">Select subtitle language</string>
+    <string name="select_osd_menu_language">Select OSD menu language</string>
+    <string name="select_tv_shape">Select TV shape</string>
+    <string name="select_view_mode">select the display mode</string>
+    <string name="enable_uc_3d_effect"> 3D effects</string>
+    <string name="enable_uc_drc_ctrl">DRC control</string>
+    <string name="disc_root">Discs：</string>
+    <string name="source_title">Resource conversion</string>
+    <string name="source_message">Convert video source, whether to exit DVD</string>
+    <string name="load_dvd">Loading DVD...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">Track：</string>
+    <string name="cd_songname">Song Name：</string>
+    <string name="data_disc_song_name">UnKnown Song</string>
+    <string name="data_disc_song_singer">UnKnown Artist</string>
+    <string name="data_disc_song_special">UnKnown Album</string>
+    <string name="data_disc_file_list">File List</string>
+    <string name="data_disc_index_list">Folder List</string>
+    <string name="brake_warn">Driving, for your safety, closed video!</string>
+
+    <!-- 数据列表 -->
+    <string name="video">Video</string>
+    <string name="music">Music</string>
+    <string name="picture">Picture</string>
+    <string name="out">Out</string>
+
+    <!-- 亮度对话框 -->
+    <string name="bright">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="tone">Tone</string>
+
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Exit Software</string>
+    <string name="quit_dlg_msg">Whether to exit the DVD Software</string>
+    <string name="quit_dlg_ok">Yes</string>
+    <string name="quit_dlg_cancel">No</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">Warn</string>
+    <string name="quit_disc_warn_msg">No Disc in machine</string>
+
+    <!-- 升级界面 -->
+    <string name="update_read">Read</string>
+    <string name="update_up">Up</string>
+    <string name="update_down">Down</string>
+    <string name="update_left">Left</string>
+    <string name="update_right">Right</string>
+    <string name="update_confirm">Confirm</string>
+
+    <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    <string name="no_dvd">Please insert the disc!</string>
+    <string name="bad_disc">Bad disc!</string>
+    <string name="v_n_supported">Vedio not supported!</string>
+    <string name="m_n_supported">Music not supported!</string>
+    <string name="p_n_supported">Picture not supported!</string>
+    <string name="bad_file">Bad file!</string>
+
+    <!-- 其他 -->
+    <string name="dvd_fward">Fward</string>
+    <string name="dvd_sward">sward</string>
+    <string name="track">Track: </string>
+    <string name="dvd_playspeed2">*2</string>
+    <string name="dvd_playspeed4">*4</string>
+    <string name="dvd_playspeed8">*8</string>
+    <string name="dvd_playspeed16">*16</string>
+    <string name="dvd_playspeed32">*32</string>
+    
+    <string name="pic_load">Loading...</string>
+    <string name="xie">/</string>
+
+</resources>

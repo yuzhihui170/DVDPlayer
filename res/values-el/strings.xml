@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">playlist</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="language_code_title">ρυθμίσεις γλώσσας</string>
+    <string name="language_code_summary">γλώσσας χρήστη</string>
+    <string name="video_title">ρυθμίσεις βίντεο</string>
+    <string name="video_summary">Ρυθμίσεις αναλογίας διαστάσεων</string>
+    <string name="audio_title">ρυθμίσεις ήχου</string>
+    <string name="audio_summary">εφέ ήχου</string>
+    <string name="restore_title">Επαναφορά των εργοστασιακών ρυθμίσεων</string>
+    <string name="restore_summary">Επαναφορά στις εργοστασιακές ρυθμίσεις</string>
+    <string name="version_title"> πρωτόκολλο έκδοση</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Αυτό θα επαναφέρει όλες τις ρυθμίσεις DVD σε εργοστασιακή ρύθμιση, είσαι σίγουρος;</string>
+    <string name="select_dvd_menu_language">Επιλογή γλώσσας μενού DVD</string>
+    <string name="select_audio_language">Επιλογή ομιλούμενης γλώσσας</string>
+    <string name="select_subtitle_language">Επιλέξτε γλώσσα υπότιτλων</string>
+    <string name="select_osd_menu_language">Επιλέξτε γλώσσα προβολής μενού</string>
+    <string name="select_tv_shape">Επιλέξτε το σχήμα της τηλεόρασης</string>
+    <string name="select_view_mode">επιλέξτε τη λειτουργία της οθόνης</string>
+    <string name="enable_uc_3d_effect">3D εφέ</string>
+    <string name="enable_uc_drc_ctrl">DRC έλεγχο</string>
+    <string name="disc_root">Δίσκοι:</string>
+    <string name="source_title">μετατροπής των πόρων</string>
+    <string name="source_message">Μετατρέψτε πηγή βίντεο, είτε να βγείτε DVD</string>
+    
+    <string name="load_dvd">Φόρτωση DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">Δεν Disc</string>
+    <string name="load_dvd_out_disc">Disc Out</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">UnKnown Song</string>
+    <string name="data_disc_song_singer">Αγνώστου</string>
+    <string name="data_disc_song_special">Άγνωστο λεύκωμα</string>
+    <string name="data_disc_file_list">Λίστα αρχείων</string>
+    <string name="data_disc_index_list">Λίστα φακέλων</string>
+    <string name="brake_warn">Οδήγηση, για την ασφάλειά σας, κλειστά βίντεο!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">βίντεο</string>
+    <string name="music">μουσική</string>
+    <string name="picture">εικόνα</string>
+    <string name="out">Μια αποθήκη</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">λάμψη</string>
+    <string name="contrast">αντίθεση</string>
+    <string name="tone">τόνος</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Έξοδος από το λογισμικό</string>
+    <string name="quit_dlg_msg">Είτε για να βγείτε από το λογισμικό DVD</string>
+    <string name="quit_dlg_ok">ναί</string>
+    <string name="quit_dlg_cancel">όχι</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">προειδοποιώ</string>
+    <string name="quit_disc_warn_msg">Δεν δίσκου στο μηχάνημα</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">ανάγνωση</string>
+    <string name="update_up">επάνω</string>
+    <string name="update_down">κάτω</string>
+    <string name="update_left">αριστερά</string>
+    <string name="update_right">δεξιά</string>
+    <string name="update_confirm">επιβεβαιώνω</string>
+ 
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <string name="dvd_fward">προκαταβολή</string>
+    <string name="dvd_sward">υποχώρηση</string>
+    <string name="track">Τραγούδια: </string>
+</resources>

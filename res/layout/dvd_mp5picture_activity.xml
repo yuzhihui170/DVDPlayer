@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:buttonlist="http://schemas.android.com/apk/res/com.apical.dvdplayer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:text="@string/pic_load"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:visibility="invisible" />
+
+    <com.apical.dvdplayer.dvdview.DvdView
+        android:id="@+id/dvdViewPictrue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textViewVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <SurfaceView
+            android:id="@+id/surfaceViewVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayoutPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/move"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/nextpagebtn" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/move"
+                android:layout_alignParentBottom="true"
+                android:layout_alignTop="@id/move"
+                android:layout_toLeftOf="@id/move" >
+
+                <com.apical.dvdplayer.dvdview.HScrollViewGroup
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/hsView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true" >
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_leftrotate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnleftrotate" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_pre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnpre" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_playpause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnplaypause" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnnext" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_rightrotate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnrightrotate" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_magnify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnmagnify" />
+
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_setlight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnsetlight" />
+                    
+                    <ImageButton
+                        android:id="@+id/datalistpictrueact_outdisc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill_vertical|center_horizontal"
+                        android:background="@drawable/btnoutdisc" />
+                </com.apical.dvdplayer.dvdview.HScrollViewGroup>
+            </LinearLayout>
+
+            <!-- qulingling -->
+
+            <include
+                android:id="@+id/bright_set_picture"
+                layout="@layout/bright_setting"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </com.apical.dvdplayer.dvdview.DvdView>
+
+    <!-- 顶栏 -->
+
+    <include
+        android:id="@+id/RightMenuBar"
+        layout="@layout/menu_bar"
+        android:visibility="gone" />
+
+</RelativeLayout>

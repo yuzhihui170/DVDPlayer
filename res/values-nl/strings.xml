@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dvd">DVD</string>
+    <string name="play_list">playlist</string>
+    <string name="settings">instellingen</string>
+    <string name="language_code_title">taalinstellingen</string>
+    <string name="language_code_summary">gebruiker taal</string>
+    <string name="video_title">video-instellingen</string>
+    <string name="video_summary">Aspectratioinstellingen</string>
+    <string name="audio_title">geluidsinstellingen</string>
+    <string name="audio_summary">Sound Effect</string>
+    <string name="restore_title">Terug naar fabrieksinstellingen</string>
+    <string name="restore_summary">Reset naar fabrieksinstellingen</string>
+    <string name="version_title"> Protocol versie</string>
+    <string name="version_summary">1.00</string>
+    <string name="restore_message">Dit zal alle DVD-instellingen op fabrieksinstelling, weet je het zeker?</string>
+    <string name="select_dvd_menu_language">Selecteer DVD menutaal</string>
+    <string name="select_audio_language">Gesproken taal selecteren</string>
+    <string name="select_subtitle_language">Selecteer ondertitelingstaal</string>
+    <string name="select_osd_menu_language">Selecteer OSD-menutaal</string>
+    <string name="select_tv_shape">Selecteer beeldformaat</string>
+    <string name="select_view_mode">Selecteer de weergavemodus</string>
+    <string name="enable_uc_3d_effect">3D-effecten</string>
+    <string name="enable_uc_drc_ctrl">DRC controle</string>
+    <string name="disc_root">schijven:</string>
+    <string name="source_title">resource conversie</string>
+    <string name="source_message">Omzetten videobron, of om DVD af te sluiten</string>
+    
+    <string name="load_dvd">Loading DVD ...</string>
+    <string name="load_sdhc">Reading, make sure that the SD card is inserted</string>
+    <string name="load_time_out">Time out</string>
+    <string name="load_dvd_no_disc">No Disc</string>
+    <string name="load_dvd_out_disc">disc Out</string>
+    <string name="cd_title">Track:</string>
+    <string name="data_disc_song_name">UnKnown Song</string>
+    <string name="data_disc_song_singer">onbekende kunstenaar</string>
+    <string name="data_disc_song_special">UnKnown Album</string>
+    <string name="data_disc_file_list">file List</string>
+    <string name="data_disc_index_list">folder List</string>
+    <string name="brake_warn">Rijden, voor uw veiligheid, gesloten video!</string>
+    
+    <!-- 数据列表 -->
+    <string name="video">video</string>
+    <string name="music">muziek</string>
+    <string name="picture">afbeelding</string>
+    <string name="out">Een magazijn</string>
+        
+    <!-- 亮度对话框 -->
+    <string name="bright">helderheid</string>
+    <string name="contrast">contrast</string>
+    <string name="tone">toon</string>
+    
+    <!-- 退出对话框 -->
+    <string name="quit_dlg_title">Exit Software</string>
+    <string name="quit_dlg_msg">Of het nu om de dvd-software af te sluiten</string>
+    <string name="quit_dlg_ok">ja</string>
+    <string name="quit_dlg_cancel">geen</string>
+
+    <!-- 提示对话框 -->
+    <string name="quit_disc_warn_title">waarschuwen</string>
+    <string name="quit_disc_warn_msg">No Disc in machine</string>
+    
+    <!-- 升级界面 -->
+    <string name="update_read">lezen</string>
+    <string name="update_up">omhoog</string>
+    <string name="update_down">beneden</string>
+    <string name="update_left">Links</string>
+    <string name="update_right">rechts</string>
+    <string name="update_confirm">bevestigen</string>
+    
+        <!-- 循环模式 -->
+    <string name="circle_mode_random">Random</string>
+    <string name="circle_mode_list">List</string>
+    <string name="circle_mode_single">Single</string>
+    <string name="circle_mode_nocircle">No Circle</string>
+        
+    <!-- 声道 -->
+    <string name="sound_mode_stereo">Stereo</string>
+    <string name="sound_mode_left">Left Channel</string>
+    <string name="sound_mode_right">Right Channel</string>
+    <string name="sound_mode_mixed">Mixed</string>
+    
+    <!-- 其他 -->
+    <string name="dvd_fward">продвижение</string>
+    <string name="dvd_sward">отступать</string>
+    <string name="track">tracks: </string>
+</resources>

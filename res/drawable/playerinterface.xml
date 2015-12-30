@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://sc"
+    xmlns:buttonlist="http://schemas.android.com/apk/res/com.apical.dvd"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CDActivity" >
+
+    <LinearLayout android:id="@+id/bottomBtnList" >
+
+        <!-- 底栏控件 -->
+    </LinearLayout>
+
+    <!-- 音乐图标 -->
+    <ImageView
+        android:id="@+id/iv_"
+        android:layout_width="235dip"
+        android:layout_height="235dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="56dip"
+        android:background="@drawable/cdplayer_music" />
+
+    <!-- 信息显示 -->
+    <LinearLayout
+        android:id="@+id/cdplayeract_llayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cdplayeract_iv0"
+        android:layout_alignTop="@id/cdplayeract_iv0"
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@id/cdplayeract_iv0"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <!-- 歌曲名称 -->
+        <TextView
+            android:id="@+id/cdplayeract_tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text=""
+            android:textColor="#00C0FF"
+            android:textSize="28sp" />
+        <!-- 曲目 -->
+        <TextView
+            android:id="@+id/cdplayeract_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/track"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        <!-- 循环模式显示 -->
+        <RadioGroup
+            android:id="@+id/cdplay_radiobtncirculationmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/raidobtn_random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radiobtn_random"
+                android:button="@null"
+                android:text="" />
+            <RadioButton
+                android:id="@+id/raidobtn_sequence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/radiobtn_sequence"
+                android:button="@null"
+                android:text="" />
+            <RadioButton
+                android:id="@+id/raidobtn_onecirculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/radiobtn_onecirculation"
+                android:button="@null"
+                android:text="" />
+            <RadioButton
+                android:id="@+id/raidobtn_allcirculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/radiobtn_allcirculation"
+                android:button="@null"
+                android:checked="true"
+                android:text="" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- 进度条 -->
+    <ProgressBar
+        android:id="@+id/CDseekBarProgress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="491px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cdplayeract_iv0"
+        android:layout_below="@id/cdplayeract_iv0"
+        android:layout_marginTop="30dp"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:progressDrawable="@drawable/seekbar_xml"
+        android:thumbOffset="0dip" />
+
+    <!-- 当前时间 -->
+    <TextView
+        android:id="@+id/cdplayeract_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/CDseekBarProgress"
+        android:layout_below="@id/CDseekBarProgress"
+        android:text=""
+        android:textColor="#48B441"
+        android:textSize="16sp" />
+    <!-- 总时间 -->
+    <TextView
+        android:id="@+id/cdplayeract_tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/CDseekBarProgress"
+        android:layout_below="@id/CDseekBarProgress"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- 列表 -->
+    <ListView
+        android:id="@+id/listViewMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="12dip"
+        android:layout_toRightOf="@id/CDseekBarProgress"
+        android:background="@drawable/cdlistview_background"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/cdlistview_interval"
+        android:listSelector="@drawable/cdlistview_sel"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+</RelativeLayout>
