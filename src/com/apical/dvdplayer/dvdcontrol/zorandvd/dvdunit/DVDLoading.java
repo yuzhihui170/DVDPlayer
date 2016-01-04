@@ -168,8 +168,8 @@ public class DVDLoading extends DVDEngineBase
 	public boolean CmdCompleted(int cmd, Bundle data)
 	{
 		LogCat.Logd("DVDLoading CmdCompleted cmd = " + cmd);
-		switch(cmd)
-		{
+		ZoranDVD.dvdInstance.ChangeUnit(DVDDVDPlayer.Instance()); //yzh 可以启动DVD播放界面
+		switch (cmd) {
 		case DvdControl.SETUP_MCU_RET_MB:
 			break;
 		case DvdControl.DVD_MCU_RET_DISCTYPE:
@@ -246,6 +246,7 @@ public class DVDLoading extends DVDEngineBase
 					ZoranDVD.dvdInstance.DVD_CMD.SetDiscState(DVDDealSet.DVD);
 				}
 				discTimerout ++;
+				stopThread = true; // yzh for test
 				
 				try 
 				{
